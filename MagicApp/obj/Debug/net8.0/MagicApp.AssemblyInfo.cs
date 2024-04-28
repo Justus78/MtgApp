@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c8cc1741820e76b5c590a1b5a121678b4df9aae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312b670de4ec7bf91ee496163dbc892cc9b2bb6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

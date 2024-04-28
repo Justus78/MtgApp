@@ -1,4 +1,4 @@
-﻿@model List<Card>
+﻿@model CardViewModel
 
 <h1 class="index_headers">My Collection</h1>
 
@@ -20,12 +20,12 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var card in Model)
+        @foreach (var card in Model.Cards)
         {
             <tr>
                 <td>@card.CardName</td>
                 <td>
-                    @foreach(var superType in ViewBag.CardSuperTypes) {
+                    @foreach(var superType in Model.CardSuperTypes) {
                         if (card.CardId == superType.CardId) {
                             if (superType.SuperTypeId == 1) { <span>Basic</span> }
                             else if (superType.SuperTypeId == 2) { <span>Legendary</span>}
@@ -35,8 +35,8 @@
                     }<!--end foreach-->
                 </td>                    
                 <td>
-                    @if(ViewBag.CardCardTypes != null){
-                        foreach(var cardType in ViewBag.CardCardTypes) {
+                    @if(Model.CardCardTypes != null){
+                        foreach(var cardType in Model.CardCardTypes) {
                             if (card.CardId == cardType.CardId) {
                                 if (cardType.CardTypeId == 1) { <span>Artifact <i class="ms ms-artifact"></i></span> }
                                 else if (cardType.CardTypeId == 2) { <span>Enchantment <i class="ms ms-enchantment"></i></span>}
@@ -52,7 +52,7 @@
                     }
                 </td>
                 <td>
-                    @foreach (var color in ViewBag.CardColors) {
+                    @foreach (var color in Model.CardColors) {
                     if (card.CardId == color.CardId) {
                             if (color.ColorId == 1){ <i class="ms ms-r"></i>}
                             else if (color.ColorId == 2){ <i class="ms ms-u"></i>}

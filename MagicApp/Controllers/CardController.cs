@@ -6,15 +6,31 @@ namespace MagicApp.Controllers
 {
     public class CardController : Controller
     {
+        // create a CardContext property
         public CardContext Context { get; set; }
-        public CardController(CardContext context) { Context = context; }
+
+        // constructer for CardController
+        public CardController(CardContext context) { Context = context; } // end constructor
+
+        // action for CardList View
         public IActionResult CardList()
         {
-            ViewBag.CardColors = Context.CardColors.OrderBy(c => c.CardId).ToList();
-            ViewBag.CardSuperTypes = Context.CardSuperTypes.OrderBy(c => c.CardId).ToList();
-            ViewBag.CardCardTypes = Context.CardCardTypes.OrderBy(ct => ct.CardId).ToList();
-            var cards = Context.Cards.OrderBy(ca => ca.CardName).ToList();            
-            return View(cards);
+            var model = new CardViewModel
+            {
+                // get data from database with each ViewModel property
+                Cards = Context.Cards.OrderBy(c => c.CardId).ToList(),
+                Colors = Context.Colors.OrderBy(c => c.ColorId).ToList(),
+                CardColors = Context.CardColors.OrderBy(cc => cc.CardId).ToList(),
+                CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList(),
+                CardCardTypes = Context.CardCardTypes.OrderBy(cct => cct.CardId).ToList(),
+                SuperTypes = Context.SuperTypes.OrderBy(st => st.SuperTypeId).ToList(),
+                CardSuperTypes = Context.CardSuperTypes.OrderBy(cst => cst.CardId).ToList()
+            };
+            //ViewBag.CardColors = Context.CardColors.OrderBy(c => c.CardId).ToList();
+            //ViewBag.CardSuperTypes = Context.CardSuperTypes.OrderBy(c => c.CardId).ToList();
+            //ViewBag.CardCardTypes = Context.CardCardTypes.OrderBy(ct => ct.CardId).ToList();
+            //var cards = Context.Cards.OrderBy(ca => ca.CardName).ToList();            
+            return View(model);
         } // end action results
 
         [HttpGet]

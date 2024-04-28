@@ -134,3 +134,4 @@ C:\Users\Matt\Desktop\MagicApp\MagicApp\obj\Debug\net8.0\refint\MagicApp.dll
 C:\Users\Matt\Desktop\MagicApp\MagicApp\obj\Debug\net8.0\MagicApp.pdb
 C:\Users\Matt\Desktop\MagicApp\MagicApp\obj\Debug\net8.0\MagicApp.genruntimeconfig.cache
 C:\Users\Matt\Desktop\MagicApp\MagicApp\obj\Debug\net8.0\ref\MagicApp.dll
+C:\Users\Matt\Desktop\MagicApp\MagicApp\obj\Debug\net8.0\MagicApp.sourcelink.json
