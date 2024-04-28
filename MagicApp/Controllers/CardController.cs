@@ -26,19 +26,25 @@ namespace MagicApp.Controllers
                 SuperTypes = Context.SuperTypes.OrderBy(st => st.SuperTypeId).ToList(),
                 CardSuperTypes = Context.CardSuperTypes.OrderBy(cst => cst.CardId).ToList()
             };
-            //ViewBag.CardColors = Context.CardColors.OrderBy(c => c.CardId).ToList();
-            //ViewBag.CardSuperTypes = Context.CardSuperTypes.OrderBy(c => c.CardId).ToList();
-            //ViewBag.CardCardTypes = Context.CardCardTypes.OrderBy(ct => ct.CardId).ToList();
-            //var cards = Context.Cards.OrderBy(ca => ca.CardName).ToList();            
+           
             return View(model);
         } // end action results
 
         [HttpGet]
         public IActionResult AddCard() {
-            ViewBag.Colors = Context.Colors.OrderBy(c => c.ColorId).ToList();
-            ViewBag.SuperTypes = Context.SuperTypes.OrderBy(c => c.SuperTypeId).ToList();
-            ViewBag.CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList();
-            return View(new Card()); 
+            var model = new CardViewModel
+            {
+                // get data from database with each ViewModel property
+                Card = new Card(),
+                Cards = Context.Cards.OrderBy(c => c.CardId).ToList(),
+                Colors = Context.Colors.OrderBy(c => c.ColorId).ToList(),
+                CardColors = Context.CardColors.OrderBy(cc => cc.CardId).ToList(),
+                CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList(),
+                CardCardTypes = Context.CardCardTypes.OrderBy(cct => cct.CardId).ToList(),
+                SuperTypes = Context.SuperTypes.OrderBy(st => st.SuperTypeId).ToList(),
+                CardSuperTypes = Context.CardSuperTypes.OrderBy(cst => cst.CardId).ToList()
+            };
+            return View(model); 
         } // end get action
 
         [HttpPost]
@@ -66,10 +72,19 @@ namespace MagicApp.Controllers
                 Context.SaveChanges();
                 return RedirectToAction("CardList", "Card");
             } else {
-                ViewBag.SuperTypes = Context.SuperTypes.OrderBy(c => c.SuperTypeId).ToList();
-                ViewBag.Colors = Context.Colors.OrderBy(c => c.ColorId).ToList();
-                ViewBag.CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList();
-                return View();
+                var model = new CardViewModel
+                {
+                    // get data from database with each ViewModel property
+                    Card = new Card(),
+                    Cards = Context.Cards.OrderBy(c => c.CardId).ToList(),
+                    Colors = Context.Colors.OrderBy(c => c.ColorId).ToList(),
+                    CardColors = Context.CardColors.OrderBy(cc => cc.CardId).ToList(),
+                    CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList(),
+                    CardCardTypes = Context.CardCardTypes.OrderBy(cct => cct.CardId).ToList(),
+                    SuperTypes = Context.SuperTypes.OrderBy(st => st.SuperTypeId).ToList(),
+                    CardSuperTypes = Context.CardSuperTypes.OrderBy(cst => cst.CardId).ToList()
+                };
+                return View(model);
             } // end if else            
         } // end post action
 
@@ -91,11 +106,23 @@ namespace MagicApp.Controllers
         [HttpGet]
         public IActionResult EditCard(int id)
         {
-            var card = Context.Cards.Find(id);
-            ViewBag.Colors = Context.Colors.OrderBy(c => c.ColorId).ToList();
-            ViewBag.SuperTypes = Context.SuperTypes.OrderBy(c => c.SuperTypeId).ToList();
-            ViewBag.CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList();
-            return View(card);
+            //var card = Context.Cards.Find(id);
+            //ViewBag.Colors = Context.Colors.OrderBy(c => c.ColorId).ToList();
+            //ViewBag.SuperTypes = Context.SuperTypes.OrderBy(c => c.SuperTypeId).ToList();
+            //ViewBag.CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList();
+            var model = new CardViewModel
+            {
+                // get data from database with each ViewModel property
+                Card = Context.Cards.Find(id),
+                Cards = Context.Cards.OrderBy(c => c.CardId).ToList(),
+                Colors = Context.Colors.OrderBy(c => c.ColorId).ToList(),
+                CardColors = Context.CardColors.OrderBy(cc => cc.CardId).ToList(),
+                CardTypes = Context.CardTypes.OrderBy(ct => ct.TypeId).ToList(),
+                CardCardTypes = Context.CardCardTypes.OrderBy(cct => cct.CardId).ToList(),
+                SuperTypes = Context.SuperTypes.OrderBy(st => st.SuperTypeId).ToList(),
+                CardSuperTypes = Context.CardSuperTypes.OrderBy(cst => cst.CardId).ToList()
+            };
+            return View(model);
         } // end get edit
 
         [HttpPost]

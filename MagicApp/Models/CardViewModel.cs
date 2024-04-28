@@ -2,6 +2,7 @@
 {
     public class CardViewModel
     {
+        public Card Card { get; set; } = null!;
         public List<Card> Cards { get; set; } = null!;
         public List<Color> Colors { get; set; } = null!;
         public List<CardColor> CardColors { get; set; } = null!;

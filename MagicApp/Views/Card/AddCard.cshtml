@@ -1,4 +1,4 @@
-﻿@model Card
+﻿@model CardViewModel
 
 @{
     ViewData["Title"] = "Add Card";
@@ -26,13 +26,13 @@
         <div asp-validation-summary="All" class="text-danger"></div>
 
         <div class="mb-3">
-            <label asp-for="CardName" class="form-label">Card Name:</label>
-            <input asp-for="CardName" class="form-control">
+            <label asp-for="Card.CardName" class="form-label">Card Name:</label>
+            <input asp-for="Card.CardName" class="form-control">
         </div>
 
         <div class="mb-3">
             <label class="form-label">Card Super Types:</label>
-            @foreach (var type in ViewBag.SuperTypes)
+            @foreach (var type in Model.SuperTypes)
             {
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="@type.SuperTypeId" name="selectedSuperType">
@@ -43,7 +43,7 @@
 
         <div class="mb-3">
             <label class="form-label">Card Types:</label>
-            @foreach (var type in ViewBag.CardTypes)
+            @foreach (var type in Model.CardTypes)
             {
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="@type.TypeId" name="selectedCardType">
@@ -63,7 +63,7 @@
 
         <div class="mb-3">
             <label class="form-label">Color Identity:</label>
-            @foreach (var color in ViewBag.Colors)
+            @foreach (var color in Model.Colors)
             {
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="@color.ColorId" name="selectedColor">
@@ -80,23 +80,23 @@
         </div>
 
         <div class="mb-3">
-            <label asp-for="ManaCost" class="form-label">ManaCost</label>
-            <input asp-for="ManaCost" class="form-control">
+            <label asp-for="Card.ManaCost" class="form-label">ManaCost</label>
+            <input asp-for="Card.ManaCost" class="form-control">
         </div>
 
         <div class="mb-3">
-            <label asp-for="Rarity" class="form-label">Rarity:</label>
-            <input asp-for="Rarity" class="form-control">
+            <label asp-for="Card.Rarity" class="form-label">Rarity:</label>
+            <input asp-for="Card.Rarity" class="form-control">
         </div>
 
         <div class="mb-3">
-            <label asp-for="Power" class="form-label">Power:</label>
-            <input asp-for="Power" class="form-control">
+            <label asp-for="Card.Power" class="form-label">Power:</label>
+            <input asp-for="Card.Power" class="form-control">
         </div>
 
         <div class="mb-3">
-            <label asp-for="Toughness" class="form-label">Toughness</label>
-            <input asp-for="Toughness" class="form-control">
+            <label asp-for="Card.Toughness" class="form-label">Toughness</label>
+            <input asp-for="Card.Toughness" class="form-control">
         </div>
 
         <button type="submit" class="btn btn-primary">Save</button>
