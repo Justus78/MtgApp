@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MagicApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MagicApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\2xm-190-atraxa-praetors-voice.jpg",
+      "PackagePath": "staticwebassets\\Images\\2xm-190-atraxa-praetors-voice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\30a-579-volcanic-island.jpg",
+      "PackagePath": "staticwebassets\\Images\\30a-579-volcanic-island.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\IMG_1803.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_1803.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\MagictheGathering_TA_EGBFW3.jpg",
+      "PackagePath": "staticwebassets\\Images\\MagictheGathering_TA_EGBFW3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\atraxa-praetors-voice.jpg",
+      "PackagePath": "staticwebassets\\Images\\atraxa-praetors-voice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\basic-lands.jpg",
+      "PackagePath": "staticwebassets\\Images\\basic-lands.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\black-lotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\black-lotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\blackLotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\blackLotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ced-233-black-lotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\ced-233-black-lotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\cmm-396-jeweled-lotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\cmm-396-jeweled-lotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\dmr-110-yawgmoth-thran-physician.jpg",
+      "PackagePath": "staticwebassets\\Images\\dmr-110-yawgmoth-thran-physician.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ema-49-force-of-will.jpg",
+      "PackagePath": "staticwebassets\\Images\\ema-49-force-of-will.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\faceless-haven.jpg",
+      "PackagePath": "staticwebassets\\Images\\faceless-haven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\force-of-will.jpg",
+      "PackagePath": "staticwebassets\\Images\\force-of-will.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\goldvein-hydra.jpg",
+      "PackagePath": "staticwebassets\\Images\\goldvein-hydra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ima-183-primeval-titan.jpg",
+      "PackagePath": "staticwebassets\\Images\\ima-183-primeval-titan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\jeweledLotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\jeweledLotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\jorn.jpg",
+      "PackagePath": "staticwebassets\\Images\\jorn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\lightning-bolt.jpg",
+      "PackagePath": "staticwebassets\\Images\\lightning-bolt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\lilianna.jpg",
+      "PackagePath": "staticwebassets\\Images\\lilianna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ltr-A-103-a-orcish-bowmasters.jpg",
+      "PackagePath": "staticwebassets\\Images\\ltr-A-103-a-orcish-bowmasters.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\magicthegatheringlogo.jpg",
+      "PackagePath": "staticwebassets\\Images\\magicthegatheringlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\mh2-138-ragavan-nimble-pilferer.jpg",
+      "PackagePath": "staticwebassets\\Images\\mh2-138-ragavan-nimble-pilferer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\mid-47-delver-of-secrets.jpg",
+      "PackagePath": "staticwebassets\\Images\\mid-47-delver-of-secrets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\mkm-217-leyline-of-the-guildpact.jpg",
+      "PackagePath": "staticwebassets\\Images\\mkm-217-leyline-of-the-guildpact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\mtgo.jpg",
+      "PackagePath": "staticwebassets\\Images\\mtgo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\otj-149-terror-of-the-peaks.jpg",
+      "PackagePath": "staticwebassets\\Images\\otj-149-terror-of-the-peaks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\otj-167-goldvein-hydra.jpg",
+      "PackagePath": "staticwebassets\\Images\\otj-167-goldvein-hydra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\otj-223-oko-the-ringleader.jpg",
+      "PackagePath": "staticwebassets\\Images\\otj-223-oko-the-ringleader.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\pip-359-sol-ring.jpg",
+      "PackagePath": "staticwebassets\\Images\\pip-359-sol-ring.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\planeswalkerImage1.jpg",
+      "PackagePath": "staticwebassets\\Images\\planeswalkerImage1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\prm-95479-volcanic-island.jpg",
+      "PackagePath": "staticwebassets\\Images\\prm-95479-volcanic-island.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\snow-mountain.jpg",
+      "PackagePath": "staticwebassets\\Images\\snow-mountain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\snow-narfi.jpg",
+      "PackagePath": "staticwebassets\\Images\\snow-narfi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ss1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ss1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ss1.png",
+      "PackagePath": "staticwebassets\\Images\\ss1.png"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\Images\\ss2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ss2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Matt\\Desktop\\MagicApp\\MagicApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MagicApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MagicApp.props",
+      "PackagePath": "build\\MagicApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MagicApp.props",
+      "PackagePath": "buildMultiTargeting\\MagicApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MagicApp.props",
+      "PackagePath": "buildTransitive\\MagicApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

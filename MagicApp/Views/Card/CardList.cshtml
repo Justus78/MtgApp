@@ -1,0 +1,82 @@
+﻿@model List<Card>
+
+<h1 class="index_headers">My Collection</h1>
+
+<a class="btn text-white btn-success mb-1" asp-action="AddCard" asp-controller="Card">Add New Card</a>
+<br />
+<div class="bg-white">
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Supertype</th>
+            <th>Card Type</th>
+            <th>Color</th>
+            <th>Mana Cost</th>
+            <th>Rarity</th>
+            <th>Power</th>
+            <th>Toughness</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var card in Model)
+        {
+            <tr>
+                <td>@card.CardName</td>
+                <td>
+                    @foreach(var superType in ViewBag.CardSuperTypes) {
+                        if (card.CardId == superType.CardId) {
+                            if (superType.SuperTypeId == 1) { <span>Basic</span> }
+                            else if (superType.SuperTypeId == 2) { <span>Legendary</span>}
+                            else if (superType.SuperTypeId == 3) { <span>Snow</span> }
+                            else if (superType.SuperTypeId == 4) { <span>World</span> }<!--end if else-->
+                        } <!--end if-->
+                    }<!--end foreach-->
+                </td>                    
+                <td>
+                    @if(ViewBag.CardCardTypes != null){
+                        foreach(var cardType in ViewBag.CardCardTypes) {
+                            if (card.CardId == cardType.CardId) {
+                                if (cardType.CardTypeId == 1) { <span>Artifact <i class="ms ms-artifact"></i></span> }
+                                else if (cardType.CardTypeId == 2) { <span>Enchantment <i class="ms ms-enchantment"></i></span>}
+                                else if (cardType.CardTypeId == 3) { <span>Creature <i class="ms ms-creature"></i></span> }
+                                else if (cardType.CardTypeId == 4) { <span>Land <i class="ms ms-land"></i></span> }
+                                else if (cardType.CardTypeId == 5) { <span>Planeswalker <i class="ms ms-planeswalker"></i></span>}
+                                else if (cardType.CardTypeId == 6) { <span>Battle <i class="ms ms-battle"></i></span> }
+                                else if (cardType.CardTypeId == 7) { <span>Instant <i class="ms ms-instant"></i></span> }
+                                else if (cardType.CardTypeId == 8) { <span>Sorcery <i class="ms ms-sorcery"></i></span> }
+
+                            } <!--end if-->
+                        }<!--end foreach-->
+                    }
+                </td>
+                <td>
+                    @foreach (var color in ViewBag.CardColors) {
+                    if (card.CardId == color.CardId) {
+                            if (color.ColorId == 1){ <i class="ms ms-r"></i>}
+                            else if (color.ColorId == 2){ <i class="ms ms-u"></i>}
+                            else if (color.ColorId == 3){ <i class="ms ms-g"></i>}
+                            else if (color.ColorId == 4){ <i class="ms ms-w"></i>}
+                            else if (color.ColorId == 5){ <i class="ms ms-b"></i>}
+                            else if (color.ColorId == 6){ <i class="ms ms-c"></i>}
+                        } <!--end if -->
+                    }<!--end foreach-->
+                </td>   
+                <td>@card.ManaCost</td>
+                <td>@card.Rarity</td>
+                    <td>@if (card.Power != null) { <i class="ms ms-power"></i>  } @card.Power</td>
+                    <td> @if (card.Toughness != null) { <i class="ms ms-toughness"></i> }@card.Toughness</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Card" asp-action="EditCard"
+                       asp-route-id="@card.CardId"
+                       >Edit</a>
+                    <a class="btn btn-primary" asp-controller="Card" asp-action="DeleteCard"
+                        asp-route-id="@card.CardId"
+                      >Delete</a>
+                </td>
+            </tr>
+        }<!--End Foreach Loop-->
+    </tbody>
+</table>
+</div>

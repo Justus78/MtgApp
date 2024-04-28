@@ -1,0 +1,82 @@
+﻿
+<div class="container">
+    <h1 class="index_headers text-center">What is a format in Magic the Gathering?</h1>
+    <p class="text-center w-50 text-white mx-auto">
+        Format just means "how to play". Each format has it's own rules for different things. 
+        Such as how many cards you need for your deck, what sets you are allowed to play cards from, 
+        or even how many of each card you can have in your deck. See below for information on some of
+        Magic the Gathering's formats.
+    </p>
+
+    <h2 class="index_headers text-center">Formats</h2>
+
+    <!--start format cards-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+           <a asp-action="Standard" asp-asp-controller="Home" class="text-decoration-none text-black"> 
+               <div class="card">
+                <img src="~/Images/goldvein-hydra.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Standard</h5>
+                    <p class="card-text">
+                        Bring a 60 card deck from the most recent sets released for Magic the Gathering. Face off against one 
+                        opponent in a game that is best of 3 matches. Click to learn more about Standard.
+                    </p>
+                </div>
+            </div></a>
+        </div>
+        <div class="col">
+            <a asp-action="Modern" asp-asp-controller="Home" class="text-decoration-none text-black"> 
+            <div class="card">
+                <img src="~/Images/lightning-bolt.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Modern</h5>
+                    <p class="card-text">
+                        Bring a 60 card deck from all the Magic the Gathering sets that have been released since
+                        Eighth Edition. Face off against one opponent in a game that is best of 3 matches. 
+                        Click to learn more about Modern.
+                    </p>
+                </div>
+            </div></a>
+        </div>
+        <div class="col">
+            <a asp-action="Legacy" asp-asp-controller="Home" class="text-decoration-none text-black"> 
+            <div class="card">
+                <img src="~/Images/force-of-will.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Legacy</h5>
+                    <p class="card-text">
+                        Bring a 60 card deck from any set that has been released by Magic the Gathering. 
+                        Face off against one opponent in a game that is best of 3 matches. Click to Legacy.
+                    </p>
+                </div>
+            </div></a>
+        </div>
+        <div class="col">
+            <a asp-action="Vintage" asp-asp-controller="Home" class="text-decoration-none text-black"> 
+            <div class="card">
+                <img src="~/Images/black-lotus.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vintage</h5>
+                    <p class="card-text">Vintage is very similar to Legacy. The biggest difference is that most
+                        banned cards in the Legacy format are allowed in Vintage but restricted to one copy 
+                        in each deck. Click to learn more about Vintage.
+                    </p>
+                </div>
+            </div></a>
+        </div>
+        <div class="col">
+            <a asp-action="Commander" asp-asp-controller="Home" class="text-decoration-none text-black"> 
+            <div class="card">
+                <img src="~/Images/atraxa-praetors-voice.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Commander</h5>
+                    <p class="card-text">Bring a 100 card deck that consists of a legendary creature and 99 cards
+                        that either match that cards color identity or are colorless. Click to learn more about Commander.
+                    </p>
+                </div>
+            </div></a>
+        </div>
+    </div>
+    <!--end format cards-->
+</div>

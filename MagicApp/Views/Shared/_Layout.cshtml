@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MagicApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MagicApp.styles.css" asp-append-version="true" />
+    <link href="//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-black">
+    <header>
+        <!--<img src="~/Images/magicthegatheringlogo.jpg" class="img-fluid mx-auto justify-content-center text-center d-flex align-items-center" />-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-action="Index" asp-controller="Home">
+                    <img src="~/Images/planeswalkerImage1.jpg" alt="Bootstrap" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About the Game
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-black" asp-action="SuperTypes" asp-controller="Home">Supertypes</a></li>
+                                <li><a class="dropdown-item text-black" asp-action="CardTypes" asp-controller="Home">Card Types</a></li>
+                                <li><a class="dropdown-item text-black" asp-action="Formats" asp-controller="Home">Formats</a></li>
+                                <li><a class="dropdown-item text-black" href="https://magic.wizards.com/en/rules" target="_blank">Offical Rules</a></li>
+                            </ul>
+                        </li>               
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Where to Play
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-black" href="https://locator.wizards.com/?utm_source=magicweb&utm_medium=referral&_gl=1%2a1l14sy7%2a_ga%2aMzQwNjY5NzU2LjE3MTM1NTY0NjI.%2a_ga_X145Z177LS%2aMTcxMzU1NjQ2MS4xLjAuMTcxMzU1NjQ2My4wLjAuMA.." target="_blank">Find an Event</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-black" href="https://magic.wizards.com/en/mtgarena" target="_blank">Arena</a></li>
+                                <li><a class="dropdown-item text-black" href="https://www.mtgo.com/en/mtgo" target="_blank">MTGO</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-action="CardList" asp-controller="Card">My Collection</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - MagicApp - 
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,117 @@
+﻿@model Card
+
+@{
+    ViewData["Title"] = "Edit Card";
+}
+@{
+    Layout = null;
+}
+
+
+<h2>@ViewData["Title"]</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MagicApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MagicApp.styles.css" asp-append-version="true" />
+    <link href="//cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="w-75 mx-auto">
+
+    <form asp-action="EditCard" method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="CardName" class="form-label">Card Name:</label>
+            <input asp-for="CardName" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Card Super Types:</label>
+            @foreach (var type in ViewBag.SuperTypes)
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="@type.SuperTypeId" name="selectedSuperType">
+                    <label class="form-check-label" for="@type.SuperTypeId">@type.Name</label>
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Card Types:</label>
+            @foreach (var type in ViewBag.CardTypes)
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="@type.TypeId" name="selectedCardType">
+                    <label class="form-check-label" for="@type.TypeId">
+                         @if(type.TypeId == 1){ <i class="ms ms-artifact"></i>}
+                        else if (type.TypeId == 2){ <i class="ms ms-enchantment"></i>}
+                        else if (type.TypeId == 3){ <i class="ms ms-creature"></i>}
+                        else if (type.TypeId == 4){ <i class="ms ms-land"></i>}
+                        else if (type.TypeId == 5){ <i class="ms ms-planeswalker"></i>}
+                        else if (type.TypeId == 6){ <i class="ms ms-battle"></i>}
+                        else if (type.TypeId == 7){ <i class="ms ms-instant"></i>}
+                        else if (type.TypeId == 8){ <i class="ms ms-sorcery"></i>}
+                        @type.Name</label>
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Color Identity:</label>
+            @foreach (var color in ViewBag.Colors)
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="@color.ColorId" name="selectedColor">
+                    <label class="form-check-label" for="@color.ColorId">
+                        @if(color.ColorId == 1){<i class="ms ms-r"></i>}
+                        else if (color.ColorId == 2){<i class="ms ms-u"></i>}
+                        else if (color.ColorId == 3){<i class="ms ms-g"></i>}
+                        else if (color.ColorId == 4){<i class="ms ms-w"></i>}
+                        else if (color.ColorId == 5){<i class="ms ms-b"></i>}
+                        else if (color.ColorId == 6){<i class="ms ms-c"></i>}                        
+                        @color.ColorName</label>
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ManaCost" class="form-label">ManaCost</label>
+            <input asp-for="ManaCost" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Rarity" class="form-label">Rarity:</label>
+            <input asp-for="Rarity" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Power" class="form-label">Power:</label>
+            <input asp-for="Power" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Toughness" class="form-label">Toughness</label>
+            <input asp-for="Toughness" class="form-control">
+        </div>
+    
+        <input type="hidden" asp-for="CardId" />
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-controller="Card" asp-action="CardList" class="btn btn-primary">Cancel</a>
+    </form>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2024 - MagicApp - Matthew Justus
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
